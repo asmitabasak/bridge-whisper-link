@@ -1,26 +1,43 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- TODO: Set the document title to the name of your application -->
-    <title>Lovable App</title>
-    <meta name="description" content="Lovable Generated Project" />
-    <meta name="author" content="Lovable" />
+<head>
+  <meta charset="UTF-8" />
+  <title>Bridge Whisper Link</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
 
-    <!-- TODO: Update og:title to match your application name -->
-    <meta property="og:title" content="Lovable App" />
-    <meta property="og:description" content="Lovable Generated Project" />
-    <meta property="og:type" content="website" />
-    <meta property="og:image" content="https://lovable.dev/opengraph-image-p98pqg.png" />
+  <header>
+    <h1>🌉 Bridge Whisper Link</h1>
+    <p>IoT Bridge Health Monitoring Dashboard</p>
+  </header>
 
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:site" content="@Lovable" />
-    <meta name="twitter:image" content="https://lovable.dev/opengraph-image-p98pqg.png" />
-  </head>
+  <main class="dashboard">
+    <div class="card">
+      <h2>Vibration Level</h2>
+      <p id="vibration">0.00</p>
+    </div>
 
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.tsx"></script>
-  </body>
+    <div class="card">
+      <h2>Load Stress</h2>
+      <p id="load">0.00</p>
+    </div>
+
+    <div class="card">
+      <h2>Temperature</h2>
+      <p id="temperature">0 °C</p>
+    </div>
+
+    <div class="card status">
+      <h2>Bridge Status</h2>
+      <p id="status">Normal</p>
+    </div>
+  </main>
+
+  <footer>
+    <p>© 2025 Bridge Whisper Link | IoT Project</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
 </html>
